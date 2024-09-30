@@ -117,7 +117,6 @@
 		{
 			"name": "strings",
 			"scope": [
-				"punctuation.definition.string",
 				"string.quoted.double",
 				"string.quoted.single",
 				"string.template.js",
@@ -148,7 +147,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#99fadc"
+				"foreground": "#44ffae"
 			}
 		},
 		{
@@ -173,7 +172,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#6e51f1"
+				"foreground": "#a0f2ff"
 			}
 		},
 		{
@@ -297,10 +296,13 @@
 				"entity.other.attribute-name.class",
 				"entity.other.attribute-name.id",
 				"punctuation.seperator.id",
-				"punctuation.seperator.class"
+				"punctuation.seperator.class",
+				"string.quoted.double.html",
+				"string.quoted.single.html",
+				"punctuation.definition.string.html"
 			],
 			"settings": {
-				"foreground": "#93fff1"
+				"foreground": "#6afebe"
 			}
 		},
 		{
@@ -666,5 +668,14 @@
 				"foreground": "#EEFFFF"
 			}
 		}
-	]
+	],
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#FFFFFF",
+		"editorBracketHighlight.foreground2": "#00ff00",
+		"editorBracketHighlight.foreground3": "#0000ff",
+		"editorBracketHighlight.foreground4": "#ff00ff",
+		"editorBracketHighlight.foreground5": "#00ffff",
+		"editorBracketHighlight.foreground6": "#ffff00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	}
 }
